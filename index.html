@@ -110,7 +110,9 @@
     margin:18px 0 0;
     font-size:clamp(2.1rem,5.4vw,3.7rem);
     line-height:1.04;letter-spacing:-.03em;font-weight:680;max-width:none;
+    text-wrap:balance;
   }
+  h1 .nowrap{white-space:nowrap}
   h1 .hl{color:var(--accent);background:linear-gradient(180deg,#8ff2bd,#4bd394);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .hero__sub{margin:16px 0 0;max-width:none;font-size:clamp(1.05rem,1.7vw,1.2rem);color:var(--dim)}
   .hero__sub b{color:var(--text);font-weight:600}
@@ -449,7 +451,7 @@
 <section class="hero">
   <div class="container">
     <span class="eyebrow"><span class="pip"></span> An installable skill · <span class="mono">npx skills add reindent/boards</span></span>
-    <h1>The project board that <span class="hl">writes itself</span> while you build.</h1>
+    <h1>The project board that <span class="hl">writes itself</span> <span class="nowrap">while you build.</span></h1>
 
     <!-- the animated story -->
     <div class="stage">
